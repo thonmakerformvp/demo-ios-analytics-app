@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEE369D711387A8806C695F /* Pods_RabbleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3807F2B26392741CC8033C3E /* Pods_RabbleAnalytics.framework */; };
+		890342CA1E98769B00AD0812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342C91E98769B00AD0812 /* AppDelegate.swift */; };
+		890342CC1E98769B00AD0812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342CB1E98769B00AD0812 /* ViewController.swift */; };
+		890342D11E98769B00AD0812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890342D01E98769B00AD0812 /* Assets.xcassets */; };
+		890342D41E98769B00AD0812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890342D21E98769B00AD0812 /* LaunchScreen.storyboard */; };
+		890342DF1E98769B00AD0812 /* RabbleAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342DE1E98769B00AD0812 /* RabbleAnalyticsTests.swift */; };
+		890342EA1E98769B00AD0812 /* RabbleAnalyticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342E91E98769B00AD0812 /* RabbleAnalyticsUITests.swift */; };
+		890342F81E987A2700AD0812 /* TheRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342F71E987A2700AD0812 /* TheRootViewController.swift */; };
+		890342FA1E987BB600AD0812 /* SpotAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342F91E987BB600AD0812 /* SpotAvailabilityViewController.swift */; };
+		890342FC1E98944A00AD0812 /* SpotAvailabilitySnapshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890342FB1E98944A00AD0812 /* SpotAvailabilitySnapshotViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890342DB1E98769B00AD0812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890342BE1E98769B00AD0812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890342C51E98769B00AD0812;
+			remoteInfo = RabbleAnalytics;
+		};
+		890342E61E98769B00AD0812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890342BE1E98769B00AD0812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890342C51E98769B00AD0812;
+			remoteInfo = RabbleAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3807F2B26392741CC8033C3E /* Pods_RabbleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RabbleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B66492E69F2FB89DCE67ED1 /* Pods-RabbleAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabbleAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RabbleAnalytics/Pods-RabbleAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		890342C61E98769B00AD0812 /* RabbleAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890342C91E98769B00AD0812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		890342CB1E98769B00AD0812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		890342D01E98769B00AD0812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890342D31E98769B00AD0812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		890342D51E98769B00AD0812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890342DA1E98769B00AD0812 /* RabbleAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890342DE1E98769B00AD0812 /* RabbleAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleAnalyticsTests.swift; sourceTree = "<group>"; };
+		890342E01E98769B00AD0812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890342E51E98769B00AD0812 /* RabbleAnalyticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleAnalyticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890342E91E98769B00AD0812 /* RabbleAnalyticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleAnalyticsUITests.swift; sourceTree = "<group>"; };
+		890342EB1E98769B00AD0812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890342F71E987A2700AD0812 /* TheRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheRootViewController.swift; sourceTree = "<group>"; };
+		890342F91E987BB600AD0812 /* SpotAvailabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotAvailabilityViewController.swift; sourceTree = "<group>"; };
+		890342FB1E98944A00AD0812 /* SpotAvailabilitySnapshotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotAvailabilitySnapshotViewController.swift; sourceTree = "<group>"; };
+		CD60F85D4B6C7DCBAE926C98 /* Pods-RabbleAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RabbleAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-RabbleAnalytics/Pods-RabbleAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890342C31E98769B00AD0812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE369D711387A8806C695F /* Pods_RabbleAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342D71E98769B00AD0812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342E21E98769B00AD0812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D7094ACCC90DF8FAC83C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3807F2B26392741CC8033C3E /* Pods_RabbleAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846BFAF2291143A29B44C530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B66492E69F2FB89DCE67ED1 /* Pods-RabbleAnalytics.debug.xcconfig */,
+				CD60F85D4B6C7DCBAE926C98 /* Pods-RabbleAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		890342BD1E98769B00AD0812 = {
+			isa = PBXGroup;
+			children = (
+				890342C81E98769B00AD0812 /* RabbleAnalytics */,
+				890342DD1E98769B00AD0812 /* RabbleAnalyticsTests */,
+				890342E81E98769B00AD0812 /* RabbleAnalyticsUITests */,
+				890342C71E98769B00AD0812 /* Products */,
+				846BFAF2291143A29B44C530 /* Pods */,
+				03D7094ACCC90DF8FAC83C2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		890342C71E98769B00AD0812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890342C61E98769B00AD0812 /* RabbleAnalytics.app */,
+				890342DA1E98769B00AD0812 /* RabbleAnalyticsTests.xctest */,
+				890342E51E98769B00AD0812 /* RabbleAnalyticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890342C81E98769B00AD0812 /* RabbleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				890342C91E98769B00AD0812 /* AppDelegate.swift */,
+				890342F91E987BB600AD0812 /* SpotAvailabilityViewController.swift */,
+				890342FB1E98944A00AD0812 /* SpotAvailabilitySnapshotViewController.swift */,
+				890342F71E987A2700AD0812 /* TheRootViewController.swift */,
+				890342CB1E98769B00AD0812 /* ViewController.swift */,
+				890342D01E98769B00AD0812 /* Assets.xcassets */,
+				890342D21E98769B00AD0812 /* LaunchScreen.storyboard */,
+				890342D51E98769B00AD0812 /* Info.plist */,
+			);
+			path = RabbleAnalytics;
+			sourceTree = "<group>";
+		};
+		890342DD1E98769B00AD0812 /* RabbleAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				890342DE1E98769B00AD0812 /* RabbleAnalyticsTests.swift */,
+				890342E01E98769B00AD0812 /* Info.plist */,
+			);
+			path = RabbleAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		890342E81E98769B00AD0812 /* RabbleAnalyticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				890342E91E98769B00AD0812 /* RabbleAnalyticsUITests.swift */,
+				890342EB1E98769B00AD0812 /* Info.plist */,
+			);
+			path = RabbleAnalyticsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890342C51E98769B00AD0812 /* RabbleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890342EE1E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalytics" */;
+			buildPhases = (
+				E32F6E96E867949B3CE781BF /* [CP] Check Pods Manifest.lock */,
+				890342C21E98769B00AD0812 /* Sources */,
+				890342C31E98769B00AD0812 /* Frameworks */,
+				890342C41E98769B00AD0812 /* Resources */,
+				33F0811877C7B042D50B54CB /* [CP] Embed Pods Frameworks */,
+				AC1BBD30C83E45E894B96E14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbleAnalytics;
+			productName = RabbleAnalytics;
+			productReference = 890342C61E98769B00AD0812 /* RabbleAnalytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890342D91E98769B00AD0812 /* RabbleAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890342F11E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalyticsTests" */;
+			buildPhases = (
+				890342D61E98769B00AD0812 /* Sources */,
+				890342D71E98769B00AD0812 /* Frameworks */,
+				890342D81E98769B00AD0812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890342DC1E98769B00AD0812 /* PBXTargetDependency */,
+			);
+			name = RabbleAnalyticsTests;
+			productName = RabbleAnalyticsTests;
+			productReference = 890342DA1E98769B00AD0812 /* RabbleAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890342E41E98769B00AD0812 /* RabbleAnalyticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890342F41E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalyticsUITests" */;
+			buildPhases = (
+				890342E11E98769B00AD0812 /* Sources */,
+				890342E21E98769B00AD0812 /* Frameworks */,
+				890342E31E98769B00AD0812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890342E71E98769B00AD0812 /* PBXTargetDependency */,
+			);
+			name = RabbleAnalyticsUITests;
+			productName = RabbleAnalyticsUITests;
+			productReference = 890342E51E98769B00AD0812 /* RabbleAnalyticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890342BE1E98769B00AD0812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mark Keane";
+				TargetAttributes = {
+					890342C51E98769B00AD0812 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					890342D91E98769B00AD0812 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 890342C51E98769B00AD0812;
+					};
+					890342E41E98769B00AD0812 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 890342C51E98769B00AD0812;
+					};
+				};
+			};
+			buildConfigurationList = 890342C11E98769B00AD0812 /* Build configuration list for PBXProject "RabbleAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890342BD1E98769B00AD0812;
+			productRefGroup = 890342C71E98769B00AD0812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890342C51E98769B00AD0812 /* RabbleAnalytics */,
+				890342D91E98769B00AD0812 /* RabbleAnalyticsTests */,
+				890342E41E98769B00AD0812 /* RabbleAnalyticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890342C41E98769B00AD0812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890342D41E98769B00AD0812 /* LaunchScreen.storyboard in Resources */,
+				890342D11E98769B00AD0812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342D81E98769B00AD0812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342E31E98769B00AD0812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F0811877C7B042D50B54CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabbleAnalytics/Pods-RabbleAnalytics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1BBD30C83E45E894B96E14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RabbleAnalytics/Pods-RabbleAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E32F6E96E867949B3CE781BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890342C21E98769B00AD0812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890342F81E987A2700AD0812 /* TheRootViewController.swift in Sources */,
+				890342CC1E98769B00AD0812 /* ViewController.swift in Sources */,
+				890342CA1E98769B00AD0812 /* AppDelegate.swift in Sources */,
+				890342FA1E987BB600AD0812 /* SpotAvailabilityViewController.swift in Sources */,
+				890342FC1E98944A00AD0812 /* SpotAvailabilitySnapshotViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342D61E98769B00AD0812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890342DF1E98769B00AD0812 /* RabbleAnalyticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890342E11E98769B00AD0812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890342EA1E98769B00AD0812 /* RabbleAnalyticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890342DC1E98769B00AD0812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890342C51E98769B00AD0812 /* RabbleAnalytics */;
+			targetProxy = 890342DB1E98769B00AD0812 /* PBXContainerItemProxy */;
+		};
+		890342E71E98769B00AD0812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890342C51E98769B00AD0812 /* RabbleAnalytics */;
+			targetProxy = 890342E61E98769B00AD0812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890342D21E98769B00AD0812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890342D31E98769B00AD0812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890342EC1E98769B00AD0812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890342ED1E98769B00AD0812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890342EF1E98769B00AD0812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B66492E69F2FB89DCE67ED1 /* Pods-RabbleAnalytics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RabbleAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		890342F01E98769B00AD0812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD60F85D4B6C7DCBAE926C98 /* Pods-RabbleAnalytics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RabbleAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		890342F21E98769B00AD0812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RabbleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbleAnalytics.app/RabbleAnalytics";
+			};
+			name = Debug;
+		};
+		890342F31E98769B00AD0812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RabbleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RabbleAnalytics.app/RabbleAnalytics";
+			};
+			name = Release;
+		};
+		890342F51E98769B00AD0812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RabbleAnalyticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalyticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RabbleAnalytics;
+			};
+			name = Debug;
+		};
+		890342F61E98769B00AD0812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RabbleAnalyticsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.RabbleAnalyticsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RabbleAnalytics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890342C11E98769B00AD0812 /* Build configuration list for PBXProject "RabbleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890342EC1E98769B00AD0812 /* Debug */,
+				890342ED1E98769B00AD0812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890342EE1E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890342EF1E98769B00AD0812 /* Debug */,
+				890342F01E98769B00AD0812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890342F11E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890342F21E98769B00AD0812 /* Debug */,
+				890342F31E98769B00AD0812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890342F41E98769B00AD0812 /* Build configuration list for PBXNativeTarget "RabbleAnalyticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890342F51E98769B00AD0812 /* Debug */,
+				890342F61E98769B00AD0812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890342BE1E98769B00AD0812 /* Project object */;
+}
